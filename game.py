@@ -9,7 +9,7 @@ times = 5
 init_time = datetime.now()
 print(f"¡Veremos cuanto tardas en responder estas {times} operaciones!")
 
-# Declaro los contadores 
+
 correctas =0
 incorrectas= 0
 
@@ -39,7 +39,7 @@ for i in range(0, times):
       
        
          
-  # Se imprime la cuenta.
+
   print(f"{i+1}- ¿Cuánto es {number_1} {operator} {number_2}?")
 
   # Le pedimos al usuario el resultado
@@ -49,7 +49,7 @@ for i in range(0, times):
   result = (int (result*10)/ 10)
 
 
-  # Chequeo si el resultado ingresado es correcto y actualizo el correspondiente contador
+  
   if result == resultado :
     print("Correcto")
     correctas += 1
@@ -68,6 +68,6 @@ separador = "_" * 35
 print(separador)
 print(f"\n Tardaste {total_time.seconds} segundos.")
 
-# Informo la cantidad de respuestas correctas e incorrectas 
+
 print ("Respuestas correctas:" , correctas, "\nRespuestas incorrectas: ", incorrectas )
 print(separador)
